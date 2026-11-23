@@ -1275,7 +1275,14 @@
         // Pega aquí tu firebaseConfig si deseas dejarlo fijo para todo el equipo
         // sin que nadie tenga que configurarlo manualmente:
         // =====================================================================
-        const EMBEDDED_FIREBASE_CONFIG = null;
+        const EMBEDDED_FIREBASE_CONFIG = {
+  apiKey: "AIzaSyD...",
+  authDomain: "registro-cotizaciones-pro.firebaseapp.com",
+  projectId: "registro-cotizaciones-pro",
+  storageBucket: "registro-cotizaciones-pro.firebasestorage.app",
+  messagingSenderId: "123456789012",
+  appId: "1:123456789012:web:abcdef123456"
+};
         /* Ejemplo cuando tengas tus credenciales:
         const EMBEDDED_FIREBASE_CONFIG = {
             apiKey: "TU_API_KEY",
